@@ -39,7 +39,7 @@ Ciclos gastos:         36
 
 O submódulo `mac` possui uma característica interessante: dentro dele há um *pipeline*. Isso significa que depois de pedir para ele fazer uma conta do tipo `result + valueA * valueB`, no próximo ciclo já é possível solicitar que ele comece a fazer uma nova conta com outros valores, mesmo antes da resposta à primeira conta estar pronta.
 
-Sabendo disso, responda: Por que **não** é possível simplesmente remover a máquina de estados e transformar as regras `reqLoad`, `reqMult` e `accum` em estágios de um *pipeline*, a fim de conseguir obter o resultado final do produto interno em número menor de ciclos?
+Sabendo disso, responda: Por que **não** é possível simplesmente remover a máquina de estados e transformar as regras `reqLoad`, `reqMult` e `accum` em estágios de um *pipeline*, a fim de conseguir obter o resultado final do produto interno em um número menor de ciclos?
 
 
 # Questão 2 (codificação)
