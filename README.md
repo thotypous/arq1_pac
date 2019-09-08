@@ -61,6 +61,8 @@ Resultado da multiplicação: 0.2000
 Ciclos gastos:         13
 ```
 
+**Atenção** à quantidade de ciclos gastos, que deve ser menor ou igual a 13.
+
 
 # Questão 3 (codificação)
 
@@ -90,4 +92,4 @@ Resultado final: 4.2000
 Ciclos gastos:         13
 ```
 
-Modifique seu código para fazê-lo.
+Modifique seu código para fazê-lo. **Atenção** à quantidade de ciclos gastos, que deve ser menor ou igual a 13.
